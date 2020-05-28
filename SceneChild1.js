@@ -29,5 +29,35 @@ class SceneChild1 extends Phaser.Scene {
         
     }
 
+    inputManager() {
+        this.input.on('drag', function(pointer, gameObject, dragX, dragY) {
+            gameObject.x = dragX;
+            gameObject.y = dragY;
+        });
+        
+        this.input.on('dragend', function(pointer, gameObject, dropped) {
+            this.game.input.enabled = false;
+            // gameObject.clearTint();
+
+            if (!dropped) {
+                this.tweenItem(gameObject, gameObject.input.dragStartX, gameObject.input.dragStartY, this.duration.true);
+            } else if (dropped && !this.correctDrop) {
+                    this.tweenItem(gameObject, gameObject.input.dragStartX, gameObject.input.dragStartY);
+                };
+            }
+
+            // this.time.delayedCall(this.duration.true, function() {
+            //     this.stop = false;
+            //     this.nametagLetf.clearTint();
+            //     this.nametagRight.clearTint();
+            //     this.timedEvent.paused = false;
+            //     if (dropped && this.correctDrop) {
+            //         gameObject.input.enabled = false;
+            //     }
+            //     this.game.input.enabled = true;
+            // }, [], this);
+
+        }, this);
+    }
    
 }
