@@ -1,0 +1,28 @@
+<svg width="280" height="140" viewBox="0 0 280 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Frame 11</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5286 -5246)">
+<clipPath id="clip-0" clip-rule="evenodd">
+<path d="M 5286 5246L 5566 5246L 5566 5386L 5286 5386L 5286 5246Z" fill="#FFFFFF"/>
+</clipPath>
+<g id="Frame 11" clip-path="url(#clip-0)">
+<g id="Ellipse 2">
+<use xlink:href="#path0_fill" transform="translate(5296 5256)" fill="#ADD9DA"/>
+<mask id="mask0_outline_out">
+<rect id="mask0_outline_inv" fill="white" x="-10" y="-10" width="140" height="140" transform="translate(5296 5256)"/>
+<use xlink:href="#path0_fill" fill="black" transform="translate(5296 5256)"/>
+</mask>
+<g mask="url(#mask0_outline_out)">
+<use xlink:href="#path1_stroke_2x" transform="translate(5296 5256)" fill="#ADD9DA"/>
+</g>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#path0_fill" transform="translate(5436 5256)" fill="#57906A"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 120 60C 120 93.1371 93.1371 120 60 120C 26.8629 120 0 93.1371 0 60C 0 26.8629 26.8629 0 60 0C 93.1371 0 120 26.8629 120 60Z"/>
+<path id="path1_stroke_2x" d="M 110 60C 110 87.6142 87.6142 110 60 110L 60 130C 98.6599 130 130 98.6599 130 60L 110 60ZM 60 110C 32.3858 110 10 87.6142 10 60L -10 60C -10 98.6599 21.3401 130 60 130L 60 110ZM 10 60C 10 32.3858 32.3858 10 60 10L 60 -10C 21.3401 -10 -10 21.3401 -10 60L 10 60ZM 60 10C 87.6142 10 110 32.3858 110 60L 130 60C 130 21.3401 98.6599 -10 60 -10L 60 10Z"/>
+</defs>
+</svg>
